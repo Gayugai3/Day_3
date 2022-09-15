@@ -1,0 +1,26 @@
+2. Create your own resume data in JSON format
+
+var resume = 
+{
+  "Name" : "Gayathri",
+  "Age" : "28",
+  "Address" : "Madurai",
+  "Ph.no" : "95684 56566",
+  "Education Qualification" : "M.Sc IT",
+  "Technical Skills" : "Python, C, C++",
+  "Experience" : "5 years"
+};
+
+for(var i in resume)
+{
+  console.log(i,resume[i]);
+}
+
+Output
+Name Gayathri
+Age 28
+Address Madurai
+Ph.no 95684 56566
+Education Qualification M.Sc IT
+Technical Skills Python, C, C++
+Experience 5 years
