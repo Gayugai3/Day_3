@@ -1,0 +1,40 @@
+
+1. For the given JSON iterate over all for loops
+	
+for Loop
+
+var arr=
+[{"fruit":"Apple","cost":"Rs.150","Kg" :"1/2 kg"},
+{"fruit":"Orange","cost":"RS.200","Kg" :"1 kg"},
+{"fruit":"Mango","cost":"Rs.325","Kg" :"2 kg"}];
+
+for(var i=0;i<arr.length;i++)
+{
+console.log(arr[i].fruit,arr[i].cost,arr[i].Kg);
+}
+Output:
+Apple Rs.150 1/2 kg
+Orange RS.200 1 kg
+Mango Rs.325 2 kg
+
+for in Loop
+
+var obj = 
+{
+  "Name" : "Gayathri",
+  "Age" : "28",
+  "Address" : "Madurai",
+  
+};
+
+for(var i in obj)
+{
+  console.log(i,obj[i]);
+}
+Output
+
+Name Gayathri
+Age 28
+Address Madurai
+
+
